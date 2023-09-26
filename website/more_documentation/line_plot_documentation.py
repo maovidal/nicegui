@@ -10,7 +10,6 @@ def main_demo() -> None:
 
     def update_line_plot() -> None:
         now = datetime.now()
-        x = now.timestamp()
         y1 = math.sin(x)
         y2 = math.cos(x)
         line_plot.push([now], [[y1], [y2]])
